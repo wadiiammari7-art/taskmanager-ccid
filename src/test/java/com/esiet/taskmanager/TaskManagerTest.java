@@ -23,7 +23,7 @@ class TaskManagerTest {
     // =============================================
 
     @Test
-    @DisplayName("Ajout d'une tâch valide")
+    @DisplayName("Ajout d'une tâche valide")
     void testAddTask_valid() {
         Task t = manager.addTask("Corriger le bug #42", "Voir issue GitHub", "HIGH");
         assertNotNull(t);
