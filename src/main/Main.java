@@ -1,6 +1,6 @@
 package com.esiet.taskmanager;
 
-/**
+/*
  * Point d'entrée de l'application TaskManager.
  */
 public class Main {
